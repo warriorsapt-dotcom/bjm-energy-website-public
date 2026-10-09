@@ -1,0 +1,15 @@
+/* Keep the artwork proportional and all foreground elements inside its frame. */
+.hero-art{width:100%;min-width:0;height:auto;aspect-ratio:1/1;border-radius:18% 18% 8px 8px;isolation:isolate}
+.hero-art .art-label{top:12%;left:12%;right:35%;z-index:3}
+.hero-art .art-label span{display:block;font-size:clamp(7px,.65vw,10px);line-height:1.6;letter-spacing:1.2px}
+.hero-art .art-label strong{font-size:clamp(14px,1.4vw,20px);margin-top:10px;line-height:1.5}
+.hero-art .sun{width:25%;height:auto;aspect-ratio:1;top:12%;right:10%}
+.hero-art .orbit{width:85%;height:auto;aspect-ratio:1;top:3%;left:4%}
+.hero-art .hill{width:150%;height:70%}
+.hero-art .hill-one{top:41%;left:-45%}
+.hero-art .hill-two{top:65%;left:-12%}
+.hero-art .panel{width:53%;height:25%;border-width:5px;background:repeating-linear-gradient(90deg,transparent 0 16%,#9aafa0 16% 16.8%),repeating-linear-gradient(0deg,#223d3c 0 23%,#9aafa0 23% 25%);box-shadow:8px 12px 0 #294c3b}
+.hero-art .p-one{top:43%;left:13%}
+.hero-art .p-two{top:61%;left:30%}
+.hero-art .art-bottom{bottom:5%;left:7%;right:7%;z-index:3;font-size:8px}
+@media(max-width:800px){.hero-art{max-width:550px}.hero-art .art-label span{font-size:8px}.hero-art .art-label strong{font-size:16px}}
