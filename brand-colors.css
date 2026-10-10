@@ -1,0 +1,28 @@
+:root{--green:#073765;--cream:#f7f9fb;--yellow:#f5e7b8;--ink:#102f4c;--muted:#526879;--leaf:#347c2b;--gold:#d59b13}
+body{background:var(--cream);color:var(--ink)}
+header{background:#fff;border-bottom-color:#dce5ed}
+h1 em{color:var(--leaf)}
+.eyebrow>span{background:var(--gold)}
+.mark span{color:var(--gold)}
+.button{background:#073765;color:#fff}.button:hover{background:#0b4c85}
+.nav-cta{border-color:#073765;color:#073765}.nav-cta:hover{background:#edf3f8}
+.ribbon{background:#f5e7b8;color:#073765}.ribbon b{color:#9b6a08}
+.solutions article{background:#eaf3e6;color:#183e2a}.solutions article.business{background:#073765;color:#fff}
+.solutions article.business .eyebrow{color:#f5cf68}
+.services{background:#fff}.service-list article{border-color:#dce5ed}.service-list article>span{color:#347c2b}
+.service-enquiry{color:#073765}.service-enquiry:hover{color:#347c2b}
+.process{background:#073765;color:#fff}.process .eyebrow,.steps span{color:#f5cf68}.steps>div{border-color:#507494}.steps p{color:#d0deea}
+.founders article{border-color:#dce5ed}.founders article>span{background:#e7eef5;color:#073765}
+.start{background:#edf4e8;color:#102f4c}#start:target{outline-color:#91b67b}
+input,select,textarea{background:#fff;border-color:#b1c6ae;color:#102f4c}
+input:focus,select:focus,textarea:focus{border-color:#347c2b}
+.contact-email{color:#073765}.contact-email:hover{color:#347c2b}
+.whatsapp-button{background:#287b36}.whatsapp-button:hover{background:#1e612a}#whatsapp-contact .contact-icon{color:#287b36}
+.download-button{color:#073765}
+.faq details{border-color:#dce5ed}
+footer{background:#062c50;color:#fff}.site-footer>.footer-grid{color:#fff}
+.footer-company>p,.footer-contact-link{color:#e1eaf2}.footer-company .footer-description,.footer-contact-link small{color:#b9cbdb}
+.site-footer h3,.site-footer .footer-contact-link .contact-icon{color:#f5cf68}.footer-nav>a{color:#d4e1ec}
+.site-footer>.footer-bottom{border-color:#365a79;color:#b9cbdb}.site-footer a:hover{color:#f5cf68}
+:focus-visible{outline-color:#bd870b}
+.hero-art{background:#dcead4}.hero-art .sun{background:#f4cc56;box-shadow:0 0 70px #f5cf6855}.hero-art .hill-one{background:#95b57e}.hero-art .hill-two{background:#347c42}.hero-art .panel{background:repeating-linear-gradient(90deg,transparent 0 16%,#a6c1d5 16% 16.8%),repeating-linear-gradient(0deg,#073765 0 23%,#a6c1d5 23% 25%);border-color:#dfebf3;box-shadow:8px 12px 0 #164a40}.hero-art .art-bottom{color:#fff}
